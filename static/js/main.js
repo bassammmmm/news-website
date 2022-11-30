@@ -18,7 +18,6 @@ const navSlide = () => {
         link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 +
           0.4}s`;
       }
-      document.querySelector('.wrap').hide()
     });
 
     // Burger Animation
